@@ -15,7 +15,6 @@ while true
 do
     read -p "Enter your guess: " guess
 
-   git status
     if ! [[ "$guess" =~ ^[0-9]+$ ]]
     then
         echo "Please enter a valid number."
